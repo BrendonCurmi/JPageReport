@@ -2,11 +2,13 @@
 
 [![license](https://img.shields.io/github/license/BrendonCurmi/JPageReport)](https://github.com/BrendonCurmi/JPageReport/blob/master/LICENSE)
 
+JPageReport is a library for compiling reports from [JPageTest](https://github.com/BrendonCurmi/JPageTest).
+
 Usage
 ====
 Firstly, you will need to create an API key on [WebPageTest](https://www.webpagetest.org/getkey.php).
 
-[More information](https://github.com/BrendonCurmi/JPageTest)
+For more information, see [JPageTest docs](https://github.com/BrendonCurmi/JPageTest)
 
 **Sample.java**
 ```java
