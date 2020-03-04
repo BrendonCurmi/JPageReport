@@ -35,6 +35,55 @@ public class Sample {
 }
 ```
 
+Outputs
+====
+
+**> report-single.csv**
+```csv
+Site,Load Time,First Contentful Paint,Speed Index,Document Complete Time,Fully Loaded Time,
+https://www.example.com,0.262,0.308,0.400,0.262,0.334,
+https://www.example.com,0.294,0.306,0.300,0.294,0.342,
+https://www.example.com,0.260,0.313,0.400,0.260,0.338,
+https://www.example.com,0.255,0.310,0.300,0.255,0.338,
+https://www.example.com,0.233,0.286,0.300,0.233,0.312,
+```
+
+| Site                    | Load Time | First Contentful Paint | Speed Index | Document Complete Time | Fully Loaded Time |
+| ----------------------- | --------- | ---------------------- | ----------- | ---------------------- | ----------------- |
+| https://www.example.com | 0.262     | 0.308                  | 0.400       | 0.262                  | 0.334             |
+| https://www.example.com | 0.294     | 0.306                  | 0.300       | 0.294                  | 0.342             |
+| https://www.example.com | 0.260     | 0.313                  | 0.400       | 0.260                  | 0.338             |
+| https://www.example.com | 0.255     | 0.310                  | 0.300       | 0.255                  | 0.338             |
+| https://www.example.com | 0.233     | 0.286                  | 0.300       | 0.233                  | 0.312             |
+
+**> report-comparative.csv**
+```csv
+Site,Load Time,First Contentful Paint,Speed Index,Document Complete Time,Fully Loaded Time,
+https://www.example.com,0.241,0.289,0.300,0.241,0.317,
+https://www.example.org,0.303,0.354,0.300,0.303,0.378,
+https://www.example.com,0.245,0.300,0.300,0.245,0.333,
+https://www.example.org,0.301,0.316,0.400,0.301,0.356,
+https://www.example.com,0.249,0.309,0.400,0.249,0.344,
+https://www.example.org,0.253,0.300,0.300,0.253,0.324,
+https://www.example.com,0.241,0.297,0.300,0.241,0.322,
+https://www.example.org,0.233,0.315,0.300,0.233,0.357,
+https://www.example.com,0.249,0.312,0.300,0.249,0.333,
+https://www.example.org,0.259,0.308,0.300,0.259,0.332,
+```
+
+| Site                    | Load Time | First Contentful Paint | Speed Index | Document Complete Time | Fully Loaded Time |
+| ----------------------- | --------- | ---------------------- | ----------- | ---------------------- | ----------------- |
+| https://www.example.com | 0.241     | 0.289                  | 0.300       | 0.241                  | 0.317             |
+| https://www.example.org | 0.303     | 0.354                  | 0.300       | 0.303                  | 0.378             |
+| https://www.example.com | 0.245     | 0.300                  | 0.300       | 0.245                  | 0.333             |
+| https://www.example.org | 0.301     | 0.316                  | 0.400       | 0.301                  | 0.356             |
+| https://www.example.com | 0.249     | 0.309                  | 0.400       | 0.249                  | 0.344             |
+| https://www.example.org | 0.253     | 0.300                  | 0.300       | 0.253                  | 0.324             |
+| https://www.example.com | 0.241     | 0.297                  | 0.300       | 0.241                  | 0.322             |
+| https://www.example.org | 0.233     | 0.315                  | 0.300       | 0.233                  | 0.357             |
+| https://www.example.com | 0.249     | 0.312                  | 0.300       | 0.249                  | 0.333             |
+| https://www.example.org | 0.259     | 0.308                  | 0.300       | 0.259                  | 0.332             |
+
 Dependencies
 ====
 - [JPageTest](https://github.com/BrendonCurmi/JPageTest)
